@@ -1,0 +1,36 @@
+checks:
+  combat:
+    kill-aura: true
+    reach: true
+    aim: true
+    auto-clicker: true
+  movement:
+    speed: true
+    fly: true
+    no-fall: true
+    scaffold: true
+  blocks:
+    fast-break: true
+    fast-place: true
+
+punishment:
+  enabled: false
+  kick-vl: 30
+  message: "&cSuspicious activity detected."
+
+alerts:
+  enabled: true
+  format: "&8[&cVulkan&8] &f%player% &7failed &c%check% &7VL=&f%vl%"
+
+chat-filter:
+  enabled: true
+  mute-after-warnings: 3
+  blocked-terms:
+    - "badword1"
+    - "badword2"
+
+crystal-protection:
+  enabled: true
+  protect-blocks: true
+  protect-dropped-items: true
+  player-damage: true

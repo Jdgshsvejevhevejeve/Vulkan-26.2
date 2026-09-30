@@ -1,0 +1,20 @@
+name: Vulkan
+version: 1.0.0
+main: com.nova.vulkan.VulkanPlugin
+api-version: '1.21'
+author: NOVA SMP
+description: Vulkan 26.2 anti-cheat, chat protection and crystal protection.
+
+commands:
+  vulkan:
+    description: Vulkan administration command
+    usage: /vulkan <reload|alerts|debug|info|violations>
+    permission: vulkan.admin
+
+permissions:
+  vulkan.admin:
+    default: op
+  vulkan.alerts:
+    default: op
+  vulkan.bypass:
+    default: op
